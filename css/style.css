@@ -5,3 +5,9 @@ body {
 	padding: 20%;
 	text-align: center;
 }
+
+a {
+	color:  black;
+	text-align: center;
+	text-decoration: none;
+}
