@@ -1,17 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200&display=swap');
+
 body {
 	background-color: #2e3138;
-	color: white;
 	margin: 0px;
-	padding: 20%;
+	padding-top: 5%;
+	padding-right: 38%;
+	padding-left: 38%;
+	font-family: 'Urbanist', sans-serif;
+}
+
+header {
+	color:  white;
+	font-weight: bold;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
+div.links {
+	border: 3px solid white;
+	margin-bottom: 25px;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	text-align: center;
+	width: 100%;
+}
+
 a {
-	color:  black;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 }
 
-a:hover {
+a.link {
+	display: block;
+	font-weight: bold;
+}
+
+div.links:hover {
+	background-color: white;
+	color: #2e3138;
+}
+
+a.link:hover{
+	color: #2e3138;
+}
+
+a#repositorio:hover {
 	color: #999;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
 }
