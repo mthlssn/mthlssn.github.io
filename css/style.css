@@ -11,3 +11,7 @@ a {
 	text-align: center;
 	text-decoration: none;
 }
+
+a:hover {
+	color: #999;
+}
