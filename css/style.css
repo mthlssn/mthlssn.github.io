@@ -27,7 +27,7 @@ div.links {
 }
 
 a {
-	color: red;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 }
@@ -57,30 +57,10 @@ footer {
     	margin-top: -1%;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	body {
 		padding-right: 5%;
 		padding-left: 5%;
-	}
-
-	header {
-		color: red;
-	}
-
-	footer {
-	font-size: 8px;
-    margin-top: -1%;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	body {
-		padding-right: 5%;
-		padding-left: 5%;
-	}
-
-	header {
-		color: red;
 	}
 
 	footer {
