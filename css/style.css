@@ -62,9 +62,13 @@ footer {
 		padding-right: 5%;
 		padding-left: 5%;
 	}
+	
+	header {
+		font-size: 20px;
+	}
 
 	footer {
-	font-size: 8px;
-    margin-top: -1%;
+		font-size: 8px;
+    		margin-top: -1%;
 	}
 }
