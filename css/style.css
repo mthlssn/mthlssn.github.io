@@ -27,7 +27,7 @@ div.links {
 }
 
 a {
-	color: white;
+	color: red;
 	text-align: center;
 	text-decoration: none;
 }
@@ -35,7 +35,7 @@ a {
 a.link {
 	display: block;
 	font-weight: bold;
-    font-size: 16px;
+    	font-size: 16px;
 }
 
 div.links:hover {
@@ -54,9 +54,8 @@ a#repositorio:hover {
 footer {
 	text-align: center;
 	font-size: 12px;
-    margin-top: -1%;
+    	margin-top: -1%;
 }
-
 
 @media only screen and (max-width: 768px) {
 	body {
