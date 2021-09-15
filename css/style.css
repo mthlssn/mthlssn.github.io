@@ -4,21 +4,22 @@ body {
 	background-color: #2e3138;
 	margin: 0px;
 	padding-top: 5%;
-	padding-right: 36%;
-	padding-left: 36%;
+	padding-right: 34%;
+	padding-left: 34%;
 	font-family: 'Urbanist', sans-serif;
 }
 
 header {
 	color:  white;
 	font-weight: bold;
-	margin-bottom: 40px;
+	margin-bottom: 7%;
 	text-align: center;
+    font-size: 40px;
 }
 
 div.links {
 	border: 3px solid white;
-	margin-bottom: 25px;
+	margin-bottom: 5%;
 	padding-bottom: 4%;
 	padding-top: 4%;
 	text-align: center;
@@ -34,6 +35,7 @@ a {
 a.link {
 	display: block;
 	font-weight: bold;
+    font-size: 16px;
 }
 
 div.links:hover {
@@ -52,4 +54,5 @@ a#repositorio:hover {
 footer {
 	text-align: center;
 	font-size: 12px;
+    margin-top: -2%;
 }
