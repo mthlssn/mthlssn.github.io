@@ -23,7 +23,7 @@ div.links {
 	padding-bottom: 4%;
 	padding-top: 4%;
 	text-align: center;
-	width: 100%;
+	width: calc(100% - 4px);
 }
 
 a {
@@ -35,7 +35,7 @@ a {
 a.link {
 	display: block;
 	font-weight: bold;
-    	font-size: 16px;
+    font-size: 16px;
 }
 
 div.links:hover {
@@ -54,7 +54,7 @@ a#repositorio:hover {
 footer {
 	text-align: center;
 	font-size: 12px;
-    	margin-top: -1%;
+    margin-top: -1%;
 }
 
 @media screen and (max-width: 768px) {
@@ -70,6 +70,6 @@ footer {
 
 	footer {
 		font-size: 8px;
-    		margin-top: -1%;
+    	margin-top: -1%;
 	}
 }
