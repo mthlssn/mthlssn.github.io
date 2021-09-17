@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200&display=swap');
 
+html, body {
+    height: 95%;
+    margin: 0px;
+}
+
 body {
 	background-color: #2e3138;
-	margin: 0px;
 	padding-top: 5%;
 	padding-right: 37%;
 	padding-left: 37%;
