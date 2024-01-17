@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
 
-html, body {
-    height: 95%;
-    margin: 0px;
+* {
+	margin: 0;
 }
 
 body {
-	/*background-color: #1c1c1c;*/
 	background-color: #000000;
-	padding-top: 50px;
+
 	padding-right: 35%;
 	padding-left: 35%;
-	font-family: 'Urbanist', sans-serif;
+
+	font-family: 'Prompt', sans-serif;
+	font-weight: 400;
+
+	height: 60vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
-header {
+h1 {
 	color:  white;
-	font-weight: bold;
-	margin-bottom: 15px;
 	text-align: center;
 	font-size: 30px;
+
+	font-weight: 700;
 }
 
-img {
-	width: 90px;
-	height: 90px;
-	box-shadow: 2px 2px 10px black;
-	border-radius: 5px;
+main { 
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 
@@ -38,7 +43,6 @@ div#body {
 
 div.links {
 	border: 2px solid white;
-	margin-bottom: 3%;
 	padding-bottom: 4%;
 	padding-top: 4%;
 	text-align: center;
@@ -53,7 +57,6 @@ a {
 
 a.link {
 	display: block;
-	font-weight: bold;
     font-size: 16px;
 }
 
@@ -75,7 +78,6 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 10px;
-    margin-top: 4%;
 }
 
 @media screen and (max-width: 760px) {
@@ -84,14 +86,11 @@ footer {
 		padding-left: 5%;
 	}
 	
-	header {
-		font-size: 25px;
-		margin-bottom: 15px;
-
+	h1 {
+		font-size: 20px;
 	}
 
 	a#repositorio {
 		font-size: 8px;
-    	margin-top: -1%;
 	}
 }
